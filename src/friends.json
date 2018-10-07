@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Yagami Light",
+    "image": "https://i.pinimg.com/originals/d6/d0/c4/d6d0c473b4ae12475f26aeedcae4ef0c.png"
+  },
+  {
+    "id": 2,
+    "name": "L",
+    "image": "https://vignette.wikia.nocookie.net/deathnote/images/7/76/299276L.jpg/revision/latest?cb=20160609084420"
+  },
+  {
+    "id": 3,
+    "name": "Misa Amane",
+    "image": "https://i.pinimg.com/474x/f1/12/50/f1125042a2fbab457fcab569378f1675--misa-death-note.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Teru Mikami",
+    "image": "https://vignette.wikia.nocookie.net/deathnote/images/6/65/GameMikami.png/revision/latest?cb=20131226232907"
+  },
+  {
+    "id": 5,
+    "name": "Mello",
+    "image": "https://vignette.wikia.nocookie.net/deathnote/images/9/98/Mello.gif/revision/latest?cb=20080924191115"
+  },
+  {
+    "id": 6,
+    "name": "Near",
+    "image": "https://vignette.wikia.nocookie.net/deathnote/images/a/a9/Manga_character_icon_Near.jpg/revision/latest/scale-to-width-down/310?cb=20170716181142"
+  },
+  {
+    "id": 7,
+    "name": "Ruyk",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Death_Note_Ryuk.jpg/250px-Death_Note_Ryuk.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Naomi Misora",
+    "image": "https://vignette.wikia.nocookie.net/deathnote/images/c/c7/Char06001c_char06001c.png/revision/latest?cb=20131226231053"
+  },
+  {
+    "id": 9,
+    "name": "Shinigami Light?",
+    "image": "https://vignette.wikia.nocookie.net/deathnotefanon/images/8/85/Shinigamilight.jpg/revision/latest?cb=20101220044524"
+  },
+  {
+    "id": 10,
+    "name": "Sayu Yagami",
+    "image": "https://vignette.wikia.nocookie.net/deathnote/images/6/62/Yagami_sayu.jpg/revision/latest?cb=20090715211352&path-prefix=de"
+  },
+  {
+    "id": 11,
+    "name": "Matsuda",
+    "image": "https://c1.staticflickr.com/4/3280/2776699190_4ecf708dfd.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Soichiro Yagami",
+    "image": "https://vignette.wikia.nocookie.net/p__/images/6/65/Sochiro_Yagami.jpg/revision/latest?cb=20150829045323&path-prefix=protagonist"
+  }
+]
