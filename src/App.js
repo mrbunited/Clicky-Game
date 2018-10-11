@@ -15,8 +15,6 @@ class App extends Component {
       charsIn: chars
   }
 
-  componentDidMount() {
-  }
 
 
   // this is to shuffle the pictures
@@ -27,7 +25,7 @@ class App extends Component {
       }
   }
 
-
+// this is to make state change to the charackter when the image is clicked
   checkoutChar = id => {
     const findChar = this.state.charsIn.find(item => item.id === id);
 
