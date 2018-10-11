@@ -58,6 +58,9 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+                  
+        <h1>Current Score : {this.state.curScore}</h1>
+        <h1>Highest Score : {this.state.topScore}</h1>
         <Title>Death Note Memory Game</Title>
         {this.state.chars.map(chars => (
           <FriendCard
@@ -67,9 +70,7 @@ class App extends Component {
             image={chars.image}
           />  
         ))}
-        
-        <h1>Current Score : {this.state.curScore}</h1>
-        <h1>Highest Score : {this.state.topScore}</h1>
+
       </Wrapper>
     );
   }
