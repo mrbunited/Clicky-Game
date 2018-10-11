@@ -40,18 +40,24 @@ class App extends Component {
             comment: alert("You clicked twice. Game over. Try again")
         });
     }
-    else {
 
+    else {
         const newchars = this.state.charsIn.filter(item => item.id !== id);
         
-        this.setState({ 
+        if (this.state.curScore ==12){
+      this.setState({
+            curScore: 0,
+            comment : alert("Congrtulations! You have won!")
+        })
+    }
+    else {
+         
+         this.setState({ 
             curScore: this.state.curScore + 1,
             chars: chars,
             charsIn: newchars
         });
     }
-
-
 
 }
     this.shuffleImg(chars);
