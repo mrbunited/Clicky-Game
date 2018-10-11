@@ -51,6 +51,9 @@ class App extends Component {
         });
     }
 
+
+
+}
     this.shuffleImg(chars);
 };
 
