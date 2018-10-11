@@ -12,7 +12,8 @@ class App extends Component {
       topScore: 0,
       curScore: 0,
       chars: chars,
-      charsIn: chars
+      charsIn: chars,
+      comment: ""
   }
 
 
@@ -35,7 +36,8 @@ class App extends Component {
             topScore: (this.state.curScore > this.state.topScore) ? this.state.curScore : this.state.topScore,
             curScore: 0,
             chars: chars,
-            charsIn: chars
+            charsIn: chars,
+            comment: alert("You clicked twice. Game over. Try again")
         });
     }
     else {
