@@ -37,7 +37,7 @@ class App extends Component {
             curScore: 0,
             chars: chars,
             charsIn: chars,
-            comment: alert("You clicked twice. Game over. Try again")
+            comment: alert("Wrong choice! Try again")
         });
     }
 
@@ -47,7 +47,7 @@ class App extends Component {
         if (this.state.curScore === 12){
       this.setState({
             curScore: 0,
-            comment : alert("Congrtulations! You have won!")
+            comment : alert("Congratulations! You have won!")
         })
     }
     else {
