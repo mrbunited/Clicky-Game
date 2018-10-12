@@ -44,7 +44,7 @@ class App extends Component {
     else {
         const newchars = this.state.charsIn.filter(item => item.id !== id);
         
-        if (this.state.curScore ==12){
+        if (this.state.curScore === 12){
       this.setState({
             curScore: 0,
             comment : alert("Congrtulations! You have won!")
